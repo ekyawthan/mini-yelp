@@ -1,11 +1,7 @@
-const jwt = require('jsonwebtoken');
 const httpStatus = require('http-status');
-const APIError = require('../helpers/APIError');
-const config = require('../../config/config');
 const Restaurant = require('./restaurant.model');
 const Reaction = require('../reaction/react.model');
 const User = require('../auth/user.model');
-const mongoose = require('mongoose');
 
 function get(req, res, next) {
     const {placeId} = req.query
