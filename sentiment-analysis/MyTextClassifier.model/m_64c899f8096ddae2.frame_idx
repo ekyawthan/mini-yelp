@@ -1,0 +1,11 @@
+[sframe]
+version=0
+num_segments=0
+num_columns=2
+nrows=10858
+[column_names]
+0000=text
+0001=stars
+[column_files]
+0000=m_64c899f8096ddae2.sidx:0
+0001=m_64c899f8096ddae2.sidx:1

@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD614334223BEAE0000E5338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD614332223BEAE0000E5338 /* Main.storyboard */; };
+		BD614336223BEAE1000E5338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD614335223BEAE1000E5338 /* Assets.xcassets */; };
+		BD614339223BEAE1000E5338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD614337223BEAE1000E5338 /* LaunchScreen.storyboard */; };
+		BD614344223BEAE1000E5338 /* MiniYelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD614343223BEAE1000E5338 /* MiniYelpTests.swift */; };
+		BD61434F223BEAE1000E5338 /* MiniYelpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61434E223BEAE1000E5338 /* MiniYelpUITests.swift */; };
+		BD61435E223BFA2A000E5338 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61435D223BFA2A000E5338 /* UIColor.swift */; };
+		BD614361223BFC21000E5338 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD614360223BFC21000E5338 /* HomePage.swift */; };
+		BD614364223C2042000E5338 /* RestaurantItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD614363223C2042000E5338 /* RestaurantItemCell.swift */; };
+		BD614367223C4532000E5338 /* TinyResourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD614366223C4532000E5338 /* TinyResourceProtocol.swift */; };
+		BD614369223C4561000E5338 /* URLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD614368223C4561000E5338 /* URLComponents.swift */; };
+		BD61436B223C4580000E5338 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61436A223C4580000E5338 /* URLSession.swift */; };
+		BD61436E223C45CC000E5338 /* PlaceSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61436D223C45CC000E5338 /* PlaceSearch.swift */; };
+		BD614370223C46B3000E5338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61432E223BEAE0000E5338 /* AppDelegate.swift */; };
+		BD614372223C470E000E5338 /* MiniYelpResoureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD614371223C470E000E5338 /* MiniYelpResoureType.swift */; };
+		BD614374223C5047000E5338 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = BD614373223C5047000E5338 /* sample.png */; };
+		BD614377223C55CE000E5338 /* PlaceDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD614376223C55CE000E5338 /* PlaceDetailPage.swift */; };
+		BD61437A223C57AF000E5338 /* UserPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD614379223C57AF000E5338 /* UserPage.swift */; };
+		BD88DB76223F348F006427EC /* UserReactedPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88DB75223F348F006427EC /* UserReactedPlace.swift */; };
+		BDD015F7223DC89C00A4833E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD015F6223DC89C00A4833E /* User.swift */; };
+		BDD015F9223DCC2300A4833E /* MySentenceClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BDD015F8223DCC2300A4833E /* MySentenceClassifier.mlmodel */; };
+		BDD015FB223DEDF300A4833E /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD015FA223DEDF300A4833E /* URLRequest.swift */; };
+		BDD015FD223E999C00A4833E /* MiniYelpRecommender.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD015FC223E999C00A4833E /* MiniYelpRecommender.swift */; };
+		BDD015FF223EA1E300A4833E /* PlaceDetailResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD015FE223EA1E300A4833E /* PlaceDetailResult.swift */; };
+		BDD01601223EA4D400A4833E /* GooglePlaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD01600223EA4D400A4833E /* GooglePlaceManager.swift */; };
+		BDD01603223EB2A300A4833E /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD01602223EB2A300A4833E /* Array.swift */; };
+		BDD01605223EB68B00A4833E /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD01604223EB68B00A4833E /* UserDefaults.swift */; };
+		BDD01607223ED3AC00A4833E /* MiniYelpPlaceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD01606223ED3AC00A4833E /* MiniYelpPlaceDetail.swift */; };
+		BDD01609223EE61200A4833E /* MiniYelpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD01608223EE61200A4833E /* MiniYelpApp.swift */; };
+		BDE60854223F5E240002CD3C /* UserReactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE60853223F5E240002CD3C /* UserReactionCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD614340223BEAE1000E5338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD614323223BEAE0000E5338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD61432A223BEAE0000E5338;
+			remoteInfo = MiniYelp;
+		};
+		BD61434B223BEAE1000E5338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD614323223BEAE0000E5338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD61432A223BEAE0000E5338;
+			remoteInfo = MiniYelp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD61432B223BEAE0000E5338 /* MiniYelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniYelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD61432E223BEAE0000E5338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD614333223BEAE0000E5338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD614335223BEAE1000E5338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD614338223BEAE1000E5338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD61433A223BEAE1000E5338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD61433F223BEAE1000E5338 /* MiniYelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniYelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD614343223BEAE1000E5338 /* MiniYelpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniYelpTests.swift; sourceTree = "<group>"; };
+		BD614345223BEAE1000E5338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD61434A223BEAE1000E5338 /* MiniYelpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniYelpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD61434E223BEAE1000E5338 /* MiniYelpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniYelpUITests.swift; sourceTree = "<group>"; };
+		BD614350223BEAE1000E5338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD61435D223BFA2A000E5338 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		BD614360223BFC21000E5338 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		BD614363223C2042000E5338 /* RestaurantItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantItemCell.swift; sourceTree = "<group>"; };
+		BD614366223C4532000E5338 /* TinyResourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyResourceProtocol.swift; sourceTree = "<group>"; };
+		BD614368223C4561000E5338 /* URLComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponents.swift; sourceTree = "<group>"; };
+		BD61436A223C4580000E5338 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		BD61436D223C45CC000E5338 /* PlaceSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearch.swift; sourceTree = "<group>"; };
+		BD614371223C470E000E5338 /* MiniYelpResoureType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniYelpResoureType.swift; sourceTree = "<group>"; };
+		BD614373223C5047000E5338 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		BD614376223C55CE000E5338 /* PlaceDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailPage.swift; sourceTree = "<group>"; };
+		BD614379223C57AF000E5338 /* UserPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPage.swift; sourceTree = "<group>"; };
+		BD88DB75223F348F006427EC /* UserReactedPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReactedPlace.swift; sourceTree = "<group>"; };
+		BDD015F6223DC89C00A4833E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BDD015F8223DCC2300A4833E /* MySentenceClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MySentenceClassifier.mlmodel; sourceTree = "<group>"; };
+		BDD015FA223DEDF300A4833E /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		BDD015FC223E999C00A4833E /* MiniYelpRecommender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniYelpRecommender.swift; sourceTree = "<group>"; };
+		BDD015FE223EA1E300A4833E /* PlaceDetailResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailResult.swift; sourceTree = "<group>"; };
+		BDD01600223EA4D400A4833E /* GooglePlaceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlaceManager.swift; sourceTree = "<group>"; };
+		BDD01602223EB2A300A4833E /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		BDD01604223EB68B00A4833E /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		BDD01606223ED3AC00A4833E /* MiniYelpPlaceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniYelpPlaceDetail.swift; sourceTree = "<group>"; };
+		BDD01608223EE61200A4833E /* MiniYelpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniYelpApp.swift; sourceTree = "<group>"; };
+		BDE60853223F5E240002CD3C /* UserReactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReactionCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD614328223BEAE0000E5338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD61433C223BEAE1000E5338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD614347223BEAE1000E5338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD25DDD9223DC08A00408A63 /* sentimentAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				BDD015F8223DCC2300A4833E /* MySentenceClassifier.mlmodel */,
+				BDD015FC223E999C00A4833E /* MiniYelpRecommender.swift */,
+			);
+			path = sentimentAnalysis;
+			sourceTree = "<group>";
+		};
+		BD614322223BEAE0000E5338 = {
+			isa = PBXGroup;
+			children = (
+				BD61432D223BEAE0000E5338 /* MiniYelp */,
+				BD614342223BEAE1000E5338 /* MiniYelpTests */,
+				BD61434D223BEAE1000E5338 /* MiniYelpUITests */,
+				BD61432C223BEAE0000E5338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD61432C223BEAE0000E5338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD61432B223BEAE0000E5338 /* MiniYelp.app */,
+				BD61433F223BEAE1000E5338 /* MiniYelpTests.xctest */,
+				BD61434A223BEAE1000E5338 /* MiniYelpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD61432D223BEAE0000E5338 /* MiniYelp */ = {
+			isa = PBXGroup;
+			children = (
+				BD25DDD9223DC08A00408A63 /* sentimentAnalysis */,
+				BD614378223C5765000E5338 /* profile */,
+				BD614375223C55A5000E5338 /* placeDetail */,
+				BD614373223C5047000E5338 /* sample.png */,
+				BD61436F223C468B000E5338 /* resource */,
+				BD614365223C44BE000E5338 /* tinyNetworkingLayer */,
+				BD61435F223BFBFF000E5338 /* home */,
+				BD61435C223BFA18000E5338 /* extensions */,
+			);
+			path = MiniYelp;
+			sourceTree = "<group>";
+		};
+		BD614342223BEAE1000E5338 /* MiniYelpTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD614343223BEAE1000E5338 /* MiniYelpTests.swift */,
+				BD614345223BEAE1000E5338 /* Info.plist */,
+			);
+			path = MiniYelpTests;
+			sourceTree = "<group>";
+		};
+		BD61434D223BEAE1000E5338 /* MiniYelpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD61434E223BEAE1000E5338 /* MiniYelpUITests.swift */,
+				BD614350223BEAE1000E5338 /* Info.plist */,
+			);
+			path = MiniYelpUITests;
+			sourceTree = "<group>";
+		};
+		BD61435C223BFA18000E5338 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BD61435D223BFA2A000E5338 /* UIColor.swift */,
+				BDD01602223EB2A300A4833E /* Array.swift */,
+				BDD01604223EB68B00A4833E /* UserDefaults.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		BD61435F223BFBFF000E5338 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				BD61436C223C45A5000E5338 /* entities */,
+				BD614362223C1FCD000E5338 /* views */,
+				BD614360223BFC21000E5338 /* HomePage.swift */,
+				BDD01600223EA4D400A4833E /* GooglePlaceManager.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		BD614362223C1FCD000E5338 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BD614363223C2042000E5338 /* RestaurantItemCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		BD614365223C44BE000E5338 /* tinyNetworkingLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BD614366223C4532000E5338 /* TinyResourceProtocol.swift */,
+				BD614368223C4561000E5338 /* URLComponents.swift */,
+				BD61436A223C4580000E5338 /* URLSession.swift */,
+				BDD015FA223DEDF300A4833E /* URLRequest.swift */,
+			);
+			path = tinyNetworkingLayer;
+			sourceTree = "<group>";
+		};
+		BD61436C223C45A5000E5338 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				BD61436D223C45CC000E5338 /* PlaceSearch.swift */,
+				BDD015FE223EA1E300A4833E /* PlaceDetailResult.swift */,
+				BDD015F6223DC89C00A4833E /* User.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		BD61436F223C468B000E5338 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				BD61432E223BEAE0000E5338 /* AppDelegate.swift */,
+				BD614332223BEAE0000E5338 /* Main.storyboard */,
+				BD614335223BEAE1000E5338 /* Assets.xcassets */,
+				BD614337223BEAE1000E5338 /* LaunchScreen.storyboard */,
+				BD61433A223BEAE1000E5338 /* Info.plist */,
+				BD614371223C470E000E5338 /* MiniYelpResoureType.swift */,
+				BDD01608223EE61200A4833E /* MiniYelpApp.swift */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		BD614375223C55A5000E5338 /* placeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BD614376223C55CE000E5338 /* PlaceDetailPage.swift */,
+				BDD01606223ED3AC00A4833E /* MiniYelpPlaceDetail.swift */,
+			);
+			path = placeDetail;
+			sourceTree = "<group>";
+		};
+		BD614378223C5765000E5338 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				BD61437B223C8629000E5338 /* views */,
+				BD614379223C57AF000E5338 /* UserPage.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		BD61437B223C8629000E5338 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BD88DB75223F348F006427EC /* UserReactedPlace.swift */,
+				BDE60853223F5E240002CD3C /* UserReactionCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD61432A223BEAE0000E5338 /* MiniYelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD614353223BEAE1000E5338 /* Build configuration list for PBXNativeTarget "MiniYelp" */;
+			buildPhases = (
+				BD614327223BEAE0000E5338 /* Sources */,
+				BD614328223BEAE0000E5338 /* Frameworks */,
+				BD614329223BEAE0000E5338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniYelp;
+			productName = MiniYelp;
+			productReference = BD61432B223BEAE0000E5338 /* MiniYelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD61433E223BEAE1000E5338 /* MiniYelpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD614356223BEAE1000E5338 /* Build configuration list for PBXNativeTarget "MiniYelpTests" */;
+			buildPhases = (
+				BD61433B223BEAE1000E5338 /* Sources */,
+				BD61433C223BEAE1000E5338 /* Frameworks */,
+				BD61433D223BEAE1000E5338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD614341223BEAE1000E5338 /* PBXTargetDependency */,
+			);
+			name = MiniYelpTests;
+			productName = MiniYelpTests;
+			productReference = BD61433F223BEAE1000E5338 /* MiniYelpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD614349223BEAE1000E5338 /* MiniYelpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD614359223BEAE1000E5338 /* Build configuration list for PBXNativeTarget "MiniYelpUITests" */;
+			buildPhases = (
+				BD614346223BEAE1000E5338 /* Sources */,
+				BD614347223BEAE1000E5338 /* Frameworks */,
+				BD614348223BEAE1000E5338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD61434C223BEAE1000E5338 /* PBXTargetDependency */,
+			);
+			name = MiniYelpUITests;
+			productName = MiniYelpUITests;
+			productReference = BD61434A223BEAE1000E5338 /* MiniYelpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD614323223BEAE0000E5338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mong, Kyaw";
+				TargetAttributes = {
+					BD61432A223BEAE0000E5338 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BD61433E223BEAE1000E5338 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BD61432A223BEAE0000E5338;
+					};
+					BD614349223BEAE1000E5338 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BD61432A223BEAE0000E5338;
+					};
+				};
+			};
+			buildConfigurationList = BD614326223BEAE0000E5338 /* Build configuration list for PBXProject "MiniYelp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD614322223BEAE0000E5338;
+			productRefGroup = BD61432C223BEAE0000E5338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD61432A223BEAE0000E5338 /* MiniYelp */,
+				BD61433E223BEAE1000E5338 /* MiniYelpTests */,
+				BD614349223BEAE1000E5338 /* MiniYelpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD614329223BEAE0000E5338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD614339223BEAE1000E5338 /* LaunchScreen.storyboard in Resources */,
+				BD614336223BEAE1000E5338 /* Assets.xcassets in Resources */,
+				BD614334223BEAE0000E5338 /* Main.storyboard in Resources */,
+				BD614374223C5047000E5338 /* sample.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD61433D223BEAE1000E5338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD614348223BEAE1000E5338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD614327223BEAE0000E5338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD015FD223E999C00A4833E /* MiniYelpRecommender.swift in Sources */,
+				BD614370223C46B3000E5338 /* AppDelegate.swift in Sources */,
+				BDD015FB223DEDF300A4833E /* URLRequest.swift in Sources */,
+				BD88DB76223F348F006427EC /* UserReactedPlace.swift in Sources */,
+				BD614367223C4532000E5338 /* TinyResourceProtocol.swift in Sources */,
+				BD61436B223C4580000E5338 /* URLSession.swift in Sources */,
+				BD614372223C470E000E5338 /* MiniYelpResoureType.swift in Sources */,
+				BD614361223BFC21000E5338 /* HomePage.swift in Sources */,
+				BDD01601223EA4D400A4833E /* GooglePlaceManager.swift in Sources */,
+				BD614377223C55CE000E5338 /* PlaceDetailPage.swift in Sources */,
+				BDD01603223EB2A300A4833E /* Array.swift in Sources */,
+				BD614369223C4561000E5338 /* URLComponents.swift in Sources */,
+				BDD015FF223EA1E300A4833E /* PlaceDetailResult.swift in Sources */,
+				BD61437A223C57AF000E5338 /* UserPage.swift in Sources */,
+				BDD01605223EB68B00A4833E /* UserDefaults.swift in Sources */,
+				BDD015F7223DC89C00A4833E /* User.swift in Sources */,
+				BDD01609223EE61200A4833E /* MiniYelpApp.swift in Sources */,
+				BDD015F9223DCC2300A4833E /* MySentenceClassifier.mlmodel in Sources */,
+				BD61435E223BFA2A000E5338 /* UIColor.swift in Sources */,
+				BD614364223C2042000E5338 /* RestaurantItemCell.swift in Sources */,
+				BD61436E223C45CC000E5338 /* PlaceSearch.swift in Sources */,
+				BDE60854223F5E240002CD3C /* UserReactionCell.swift in Sources */,
+				BDD01607223ED3AC00A4833E /* MiniYelpPlaceDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD61433B223BEAE1000E5338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD614344223BEAE1000E5338 /* MiniYelpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD614346223BEAE1000E5338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD61434F223BEAE1000E5338 /* MiniYelpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD614341223BEAE1000E5338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD61432A223BEAE0000E5338 /* MiniYelp */;
+			targetProxy = BD614340223BEAE1000E5338 /* PBXContainerItemProxy */;
+		};
+		BD61434C223BEAE1000E5338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD61432A223BEAE0000E5338 /* MiniYelp */;
+			targetProxy = BD61434B223BEAE1000E5338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD614332223BEAE0000E5338 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD614333223BEAE0000E5338 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD614337223BEAE1000E5338 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD614338223BEAE1000E5338 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD614351223BEAE1000E5338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD614352223BEAE1000E5338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD614354223BEAE1000E5338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 982V6XFKZ3;
+				INFOPLIST_FILE = "$(SRCROOT)/MiniYelp/resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = imb.MiniYelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD614355223BEAE1000E5338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 982V6XFKZ3;
+				INFOPLIST_FILE = "$(SRCROOT)/MiniYelp/resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = imb.MiniYelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD614357223BEAE1000E5338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiniYelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = imb.MiniYelpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniYelp.app/MiniYelp";
+			};
+			name = Debug;
+		};
+		BD614358223BEAE1000E5338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiniYelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = imb.MiniYelpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniYelp.app/MiniYelp";
+			};
+			name = Release;
+		};
+		BD61435A223BEAE1000E5338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiniYelpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = imb.MiniYelpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiniYelp;
+			};
+			name = Debug;
+		};
+		BD61435B223BEAE1000E5338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiniYelpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = imb.MiniYelpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiniYelp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD614326223BEAE0000E5338 /* Build configuration list for PBXProject "MiniYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD614351223BEAE1000E5338 /* Debug */,
+				BD614352223BEAE1000E5338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD614353223BEAE1000E5338 /* Build configuration list for PBXNativeTarget "MiniYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD614354223BEAE1000E5338 /* Debug */,
+				BD614355223BEAE1000E5338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD614356223BEAE1000E5338 /* Build configuration list for PBXNativeTarget "MiniYelpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD614357223BEAE1000E5338 /* Debug */,
+				BD614358223BEAE1000E5338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD614359223BEAE1000E5338 /* Build configuration list for PBXNativeTarget "MiniYelpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD61435A223BEAE1000E5338 /* Debug */,
+				BD61435B223BEAE1000E5338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD614323223BEAE0000E5338 /* Project object */;
+}

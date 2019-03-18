@@ -1,0 +1,7 @@
+[submodule "backend"]
+	path = backend
+	//url = git@github.com:ekyawthan/mini-yelp.git
+	url = /Users/mm88148/opensource/mini_yelp/backend
+[submodule "MiniYelp"]
+	path = MiniYelp
+	url = /Users/mm88148/opensource/mini_yelp/MiniYelp

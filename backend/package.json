@@ -1,0 +1,31 @@
+{
+  "name": "mini-yelp-api",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "start:debug": "cross-env DEBUG=express-mongoose-es6-rest-api:* yarn start"
+  },
+  "dependencies": {
+    "bluebird": "3.5.1",
+    "body-parser": "1.18.2",
+    "cors": "2.8.4",
+    "debug": "^2.4.5",
+    "dotenv": "^4.0.0",
+    "express": "4.16.3",
+    "express-jwt": "5.3.1",
+    "http-status": "1.0.1",
+    "joi": "10.6.0",
+    "jsonwebtoken": "7.1.9",
+    "mongoose": "4.7.4",
+    "querystring": "^0.2.0"
+  },
+  "author": "kyaw",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.10"
+  }
+}
